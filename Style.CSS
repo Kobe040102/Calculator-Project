@@ -1,6 +1,45 @@
 body{
     background-color: indigo;
 }
+#row1{
+    display: flex;
+    justify-content: center;
+}
+#row1 :hover{
+    background-color: #ebebeb;
+}
+#row2 :hover{
+    background-color: #ebebeb;
+}
+#row3 :hover{
+    background-color: #ebebeb;
+}
+#row4 :hover{
+    background-color: #ebebeb;
+}
+#row5 :hover{
+    background-color: #ebebeb;
+}
+#row1 :active{
+    display: flex;
+    justify-content: center;
+}
+#row1 :active{
+    background-color: #bbbcbe;
+}
+#row2 :active{
+    background-color: #bbbcbe;
+}
+#row3 :active{
+    background-color: #bbbcbe;
+}
+#row4 :active{
+    background-color:#bbbcbe ;
+}
+#row5 :active{
+    background-color: #bbbcbe;
+}
+
 /*Top of calculator*/
 .Top-cal{
     height:100px;
@@ -10,10 +49,8 @@ body{
     margin-top:50px;
 }
 /*first row of buttons*/
-#row1{
-    display: flex;
-    justify-content: center;
-}
+
+
 .clear-button{
     display: flex;
     height:100px;
@@ -194,7 +231,7 @@ body{
     border: 2px solid black;
     background-color: lightgray;
 }
-.equal{
+.equal-button{
     display: flex;
     height:100px;
     width: 5%;
