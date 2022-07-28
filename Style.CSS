@@ -1,0 +1,206 @@
+body{
+    background-color: indigo;
+}
+/*Top of calculator*/
+.Top-cal{
+    height:100px;
+    width: 20%;
+    background-color: black;
+    margin:auto;
+    margin-top:50px;
+}
+/*first row of buttons*/
+#row1{
+    display: flex;
+    justify-content: center;
+}
+.clear-button{
+    display: flex;
+    height:100px;
+    width: 10%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.delete-button{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.division-button{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: orange;
+}
+/*second row of buttons*/
+#row2{
+    display: flex;
+    justify-content: center; 
+}
+.seven{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.eight{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+.nine{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.multiply{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: orange;
+}
+/*Third row of buttons*/
+#row3{
+    display: flex;
+    justify-content: center; 
+}
+.four{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.five{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+.six{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.minus{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: orange;
+}
+/*row four of buttons*/
+#row4{
+    display: flex;
+    justify-content: center; 
+}
+.one{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.two{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+.three{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.addition{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: orange;
+}
+/*fifth row of buttons*/
+#row5{
+    display: flex;
+    justify-content: center; 
+}
+.zero{
+    display: flex;
+    height:100px;
+    width: 15%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+.equal{
+    display: flex;
+    height:100px;
+    width: 5%;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: orange;
+}
