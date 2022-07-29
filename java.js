@@ -1,4 +1,4 @@
-let TotalZero = 0;
+let TotalZero = 0; 
 let userinput = "0";
 let previousOperator = null;
 const screen = document.querySelector(".screen");
@@ -9,6 +9,7 @@ document
     buttonClick(event.target.innerText);
   });
 
+//Takes the user input and determines wheather it's a Symbol or number
 function buttonClick(value) {
   if (isNaN(parseInt(value))) {
     handleSymbol(value);
@@ -17,7 +18,7 @@ function buttonClick(value) {
   }
     rerender();
 }
-
+//This handles the number inputs
 function handleNumber(value) {
   if (userinput === "0") {
     userinput = value;
@@ -26,7 +27,7 @@ function handleNumber(value) {
   }
   
 }
-
+//This handles the Symbol inputs
 function handleSymbol(value) {
   switch (value) {
     case "C":
@@ -55,7 +56,7 @@ function handleSymbol(value) {
       break;
   }
 }
-
+//This handles the Math
 function handleMath(value) {
     const intBuffer = parseInt(userinput);
     if(TotalZero === 0){
@@ -67,7 +68,7 @@ function handleMath(value) {
     previousOperator = value;
     userinput = "0";
 }
-
+//This handles the behavior of the operations symbols when user clicks on them
 function flushOperation(intBuffer) {
     if(previousOperator === "+"){
         TotalZero += intBuffer;
@@ -79,7 +80,7 @@ function flushOperation(intBuffer) {
         TotalZero /= intBuffer;
     }
 }
-
+//This will update the screen on calculator
 function rerender() {
   screen.innerText = userinput;
 }
