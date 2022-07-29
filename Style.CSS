@@ -41,13 +41,19 @@ body{
 }
 
 /*Top of calculator*/
-.Top-cal{
-    height:100px;
+.screen{
+    font-size: 50px;
+    text-align: right;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 50px;
+    height: 50px;
     width: 20%;
+    color: white;
     background-color: black;
     margin:auto;
     margin-top:50px;
 }
+
 /*first row of buttons*/
 
 
